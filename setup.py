@@ -23,16 +23,12 @@ setup(
         'test': [
             'sqlalchemy',
             'mock',
-            'cassandra-driver',
             'numpy',
             'PyCrypto',
         ],
         'sqlalchemy': [
             'sqlalchemy',
-        ],
-        'cassandra': [
-            'cassandra-driver',
-        ],
+        ]
     },
     zip_safe=False,
     long_description="""
